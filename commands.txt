@@ -1,0 +1,73 @@
+# This file contains commands for Git in collaboration with GitHub
+
+ * git clone <url of the repository to be clonned>
+ 	- This is used to copy / download / clone a repository
+
+ * git log
+ 	- It shows the history of all commits
+
+ * git log -n
+ 	- Displays 'n' number of recent commits
+
+ * git log <branch name>
+ 	- Displays the commit history of the particular branch specified
+
+ * git log --graph --oneline
+ 	- Displays the complete commit history in short form including
+ 	  all branches
+
+ * git diff <commit-id-1> <commit-id-2>
+ 	- Outputs the difference between the two commits compared
+
+ * git diff
+ 	- Outputs the comparison between previous & current changes made
+
+ * git diff --staged
+ 	- Outputs the difference between the previous commit and the
+ 	  current changes made while in the staging area
+
+ * git add <name of the file>
+ 	- Adds the file to the staging area
+
+ * git add -A / *
+ 	- Adds all the modified / untracked files to the staging area
+
+ * git reset
+ 	- Removes the file(s) from the staging area
+
+ * git reset --hard
+ 	- Resets all changes
+
+ * git branch
+ 	- Shows all the branches
+
+ * git branch <branch name>
+ 	- Creates branch with the specified name
+
+ * git checkout <branch name> / <commit id>
+ 	- Opens specified branch / Points the head to the commit id
+
+ * git branch -d / -D <branch name>
+ 	- Deletes the specified branch
+
+ * git merge <branch-a> <branch-b>
+ 	- Merges branch 'a' into 'b' (Considering 'b' is checked out)
+
+ * git remote
+ 	- Shows the remotes available
+
+ * git remote add <remote name> <url of the repo>
+ 	- Adds remote with specified name with respect to the repo
+
+ * git remote -v
+ 	- Displays the remote url(s) for fetching and pushing the data
+
+ * git push <remote name> <branch name>
+ 	- Pushes all the changes to the remote branch / repo
+
+ * git pull <remote name> <branch name>
+ 	- Updates / Merges the branch with respect to the changes made
+ 	  in the remote
+
+ * git fetch <remote name>
+ 	- Fetches all the data from the repo and creates a branch
