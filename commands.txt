@@ -74,3 +74,6 @@
 
  * git fetch <remote name>
  	- Fetches all the data from the repo and creates a branch
+  
+ * git pull --allow-unrelated-histories <remote name> <branch name>
+  - Pulls the origin repo and merges with the local
