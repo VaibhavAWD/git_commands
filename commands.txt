@@ -77,3 +77,6 @@
   
  * git pull --allow-unrelated-histories <remote name> <branch name>
   - Pulls the origin repo and merges with the local
+
+* [Removing sensitive data from a repository]
+ - https://help.github.com/en/github/authenticating-to-github/removing-sensitive-data-from-a-repository
